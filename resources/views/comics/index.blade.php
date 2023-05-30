@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <h2>Tutte le nostre paste</h2>
+        <h2>comics</h2>
         <div class="my-2 text-end">
             <a href="{{ route('comics.create') }}">Crea una nuovo fumetto</a>
         </div>
