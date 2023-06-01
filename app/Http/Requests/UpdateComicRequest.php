@@ -38,6 +38,8 @@ class UpdateComicRequest extends FormRequest
     {
         return [
             'title.required' => 'Il titolo é richiesto',
+            'title.min' => 'Il titolo deve essere lungo almeno :min caratteri',
+            'title.max' => 'Il titolo non deve superare :max caratteri',
             'description.required' => 'la descrizione è richiesta',
             'thumb.required' => 'è richiesta un immagine',
             'price.required' => 'è richiesto un prezzo',

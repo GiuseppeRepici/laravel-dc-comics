@@ -57,7 +57,7 @@
             <div class="mb-3">
                 <label for="type" class="form-label">Tipologia</label>
                 <select id="type" name="type" class="form-select @error('type') is-invalid @enderror">
-                    <option selected>Seleziona</option>
+                    <option selected value="">Seleziona</option>
                     <option value="comic">comic book</option>
                     <option value="novel">graphic novel</option>
                 </select>
